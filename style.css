@@ -1,0 +1,211 @@
+*{
+    margin: 0px ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+
+.nav-links li {
+    margin: 30px 30px;
+    color: black;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Imagenes/frame-48.avif);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header-content h2{
+    font-size: 2vmin;
+}
+
+.line {
+    width: 600px;
+    height: 2px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+
+.header-content h1 {
+    font-size: 7.5vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: black;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.logo {
+    width: 600px;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 3vmin;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 500px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h1 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.content p{
+    font-size: 15px;
+    color: white;
+}
+
+h4{
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+
+p {
+    color: black;
+    padding: 0px 40px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.events .ctn {
+    margin-top: 30px;
+}
+
+.map {
+    margin-left: 550px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+footer {
+    width: 1600px;
+    height: 100px;
+    background-color: black;
+}
+
+.footer-links {
+    
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
